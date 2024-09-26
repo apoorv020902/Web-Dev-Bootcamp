@@ -1,9 +1,20 @@
-var a = document.querySelectorAll("button");
+var a = document.querySelectorAll(".drum").length;
 
-for(i=0; i<a.length; i++) {
-    a[i].addEventListener("click", handleClick);
+for(i=0; i<a; i++) {
+    document.querySelectorAll(".drum")[i].addEventListener("click", function () {
+    var buttonInnerHTML = this.innerHTML;
+    switch (key) {
+        case value:
+            
+            break;
+    
+        default:
+            break;
+    }
+
+    });
 }
 
-function handleClick() {
-    alert("I got clicked!");
-}
+
+//var audio = new Audio ('sounds/tom-1.mp3');
+//audio.play();
