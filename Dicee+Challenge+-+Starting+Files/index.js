@@ -17,3 +17,5 @@ if (randomNumber1 > randomNumber2) {
 }
 
 document.querySelector("h1").innerHTML = winner;
+
+//test comment
